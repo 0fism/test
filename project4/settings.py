@@ -27,7 +27,7 @@ DEBUG = True
 
 #ALLOWED_HOSTS = ['https://test-ten-nu-53.vercel.app','*.vercel.app','.vercel.app']
 
-ALLOWED_HOSTS = ['.netlify.app']
+ALLOWED_HOSTS = ['.netlify.app','127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
@@ -50,7 +50,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     #'https://test-ten-nu-53.vercel.app',
     #'*.vercel.app',
-    '.netlify.app',
 ]
 platformize = [
     'https://test-ten-nu-53.vercel.app',
