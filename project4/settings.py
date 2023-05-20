@@ -27,7 +27,7 @@ DEBUG = True
 
 #ALLOWED_HOSTS = ['https://test-ten-nu-53.vercel.app','*.vercel.app','.vercel.app']
 
-ALLOWED_HOSTS = ['.netlify.app','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
