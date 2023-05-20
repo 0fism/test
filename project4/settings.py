@@ -128,7 +128,7 @@ STATIC_URL = '/static/'
 LGOIN_URL = '/login'
 
 # Add to Vercel
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'templates', 'static')
 MEDIA_URLS ='/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # End 
